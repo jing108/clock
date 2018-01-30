@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_btn">100.0dip</dimen>
+    <dimen name="bottom_img_size_h">35.0dip</dimen>
+    <dimen name="bottom_img_size_w">35.0dip</dimen>
+    <dimen name="bottom_txt_margin_top">10.0dip</dimen>
+    <dimen name="clock_bottom_ry">100.0dip</dimen>
+    <dimen name="clock_item_clock_bar">90.0dip</dimen>
+    <dimen name="clock_item_h">120.0dip</dimen>
+    <dimen name="clock_item_name_h">50.0dip</dimen>
+    <dimen name="clock_item_name_ly_h">110.0dip</dimen>
+    <dimen name="clock_item_name_ly_w">90.0dip</dimen>
+    <dimen name="clock_item_name_size">16.0sp</dimen>
+    <dimen name="clock_item_padding_w">20.0dip</dimen>
+    <dimen name="clock_item_week_h">60.0dip</dimen>
+    <dimen name="clock_top_name_min_txtsize">14.0sp</dimen>
+    <dimen name="clock_top_name_ry">70.0dip</dimen>
+    <dimen name="clock_top_name_txtsize">20.0sp</dimen>
+    <dimen name="differ_txt_margin_bottom">30.0dip</dimen>
+    <dimen name="get_up_clock_txt_size">19.0sp</dimen>
+    <dimen name="menu_padding_bottom">55.0dip</dimen>
+    <dimen name="menu_padding_right">18.0dip</dimen>
+    <dimen name="menu_padding_top">15.0dip</dimen>
+    <dimen name="sild_menu_big_txt">16.0sp</dimen>
+    <dimen name="stopwatch_text_margin_bottom">50.0dip</dimen>
+    <dimen name="stream_txt_size">18.0sp</dimen>
+    <dimen name="time_change_pop_margin_w">40.0dip</dimen>
+    <dimen name="time_change_pop_padding_bottom">15.0dip</dimen>
+    <dimen name="time_change_pop_padding_top">10.0dip</dimen>
+    <dimen name="time_change_pop_padding_w">30.0dip</dimen>
+    <dimen name="time_change_pop_text_size">70.0dip</dimen>
+    <dimen name="timepiece_bottom_ry">150.0dip</dimen>
+    <dimen name="timepiece_start_btn_margin_bottom">20.0dip</dimen>
+</resources>

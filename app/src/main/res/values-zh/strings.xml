@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abbr_everyday">每天</string>
+    <string name="abbr_friday">五</string>
+    <string name="abbr_monday">一</string>
+    <string name="abbr_monday_to_saturday">周一到周六</string>
+    <string name="abbr_no_friday">一、二、三、四、六、日</string>
+    <string name="abbr_no_saturday">一、二、三、四、五、日</string>
+    <string name="abbr_no_thursday">一、二、三、五、六、日</string>
+    <string name="abbr_no_tuseday">一、三、四、五、六、日</string>
+    <string name="abbr_no_wednesday">一、二、四、五、六、日</string>
+    <string name="abbr_saturday">六</string>
+    <string name="abbr_thursday">四</string>
+    <string name="abbr_tuseday">二</string>
+    <string name="abbr_tuseday_to_weekday">周二到周日</string>
+    <string name="abbr_wednesday">三</string>
+    <string name="abbr_weekday">日</string>
+    <string name="add">确认添加</string>
+    <string name="add_city">添加城市</string>
+    <string name="add_clock">添加新闹钟</string>
+    <string name="add_clock_back">添加新闹钟</string>
+    <string name="add_to_notes">将该标签加入便捷计时</string>
+    <string name="added">" (已添加)"</string>
+    <string name="alarm_clock">闹钟</string>
+    <string name="alarm_latter">%s分钟后再次提醒</string>
+    <string name="alarm_latter_d">%1$s天%2$s小时%3$s分钟后响铃</string>
+    <string name="alarm_latter_h">%1$s小时%2$s分钟后响铃</string>
+    <string name="alarm_latter_m">%1$s分钟后响铃</string>
+    <string name="am">AM</string>
+    <string name="app_name">最美闹钟</string>
+    <string name="back">返回</string>
+    <string name="china_time">当前时间</string>
+    <string name="city_list">城市列表</string>
+    <string name="clock_closed">未开启</string>
+    <string name="clock_is_ring">闹钟响了</string>
+    <string name="clock_list">闹钟列表</string>
+    <string name="clock_opened">已开启</string>
+    <string name="close">关闭</string>
+    <string name="count">计次</string>
+    <string name="current_city">当前城市</string>
+    <string name="current_clock">当前闹钟</string>
+    <string name="custom">自定义</string>
+    <string name="defult">默认铃声</string>
+    <string name="edit_clock_back">闹钟编辑</string>
+    <string name="enhance_warm">铃声渐强</string>
+    <string name="exit_app">再次点击退出应用</string>
+    <string name="faster_to_our">比我们快%s小时</string>
+    <string name="faster_to_our_s">比我们快%s小时</string>
+    <string name="feed_back">意见反馈</string>
+    <string name="file_not_exists">文件已不存在于手机本地，无法使用</string>
+    <string name="friday">周五</string>
+    <string name="gift_box">试试手气</string>
+    <string name="i_know">知道了</string>
+    <string name="indicate_txt_1">滑动圆圈或点击数字</string>
+    <string name="indicate_txt_2">设置闹钟时间呦</string>
+    <string name="indicate_txt_timepiece">设置计时器时间呦</string>
+    <string name="label_h">时</string>
+    <string name="label_m">分</string>
+    <string name="label_min">分</string>
+    <string name="label_second">秒</string>
+    <string name="last_version">最新版本</string>
+    <string name="launch">启动</string>
+    <string name="monday">周一</string>
+    <string name="net_work_error">网络错误</string>
+    <string name="new_clock">闹钟</string>
+    <string name="no_clock">暂无闹钟</string>
+    <string name="no_name">佚名</string>
+    <string name="notes">便捷计时</string>
+    <string name="notes_mask">面膜</string>
+    <string name="notes_run">跑步</string>
+    <string name="notes_snooze">午睡</string>
+    <string name="notes_soup">煲汤</string>
+    <string name="only_one_time">无重复</string>
+    <string name="pause">暂停</string>
+    <string name="period_set">周期设置</string>
+    <string name="pm">PM</string>
+    <string name="rate_us">给个好评</string>
+    <string name="recommand">精品推荐</string>
+    <string name="remind_later">稍后提醒</string>
+    <string name="reset">复位</string>
+    <string name="restart">继续</string>
+    <string name="ring_custom">本地歌曲</string>
+    <string name="ring_loading">加载中…</string>
+    <string name="ring_set">铃声</string>
+    <string name="ring_system">系统铃声</string>
+    <string name="saturday">周六</string>
+    <string name="save">确认修改</string>
+    <string name="search">搜索</string>
+    <string name="seconds_counter">秒表</string>
+    <string name="sleep_set">贪睡模式</string>
+    <string name="slowish_to_our">比我们慢%s小时</string>
+    <string name="slowish_to_our_s">比我们慢%s小时</string>
+    <string name="stop">停止</string>
+    <string name="text_count_up_to_limit">字数已达上限</string>
+    <string name="thursday">周四</string>
+    <string name="time_interval">"稍后再响
+时间间隔"</string>
+    <string name="time_set">设置时间</string>
+    <string name="timepiece">计时器</string>
+    <string name="timepiece_defult_time_up">计时器时间到了</string>
+    <string name="timepiece_time_up">计时器时间到了</string>
+    <string name="times_warm">提醒次数</string>
+    <string name="today">今天</string>
+    <string name="together">跟我们一样</string>
+    <string name="tomorrow">昨天</string>
+    <string name="toolbox">工具箱</string>
+    <string name="tuesday">周二</string>
+    <string name="unit_ci">次</string>
+    <string name="unit_hour">小时</string>
+    <string name="unit_min">分钟</string>
+    <string name="updata_version">版本更新</string>
+    <string name="v">"v "</string>
+    <string name="version_code">"版本号 "</string>
+    <string name="vibration_warm">震动提示</string>
+    <string name="volume_set">音量</string>
+    <string name="volume_size">音量大小</string>
+    <string name="wednesday">周三</string>
+    <string name="weekday">周日</string>
+    <string name="world_time">世界时间</string>
+    <string name="yesterday">明天</string>
+    <string name="abbr_sign">、</string>
+    <string name="allow_start_slef">解决闹钟不响的问题，需允许闹钟自启动.</string>
+    <string name="app_name_dd">闹钟</string>
+    <string name="cancle_btn_txt">取消</string>
+    <string name="clear_soft_allow_indicate">"a. 360手机卫士用户
+打开【360手机卫士】，点击【清理加速】，进入【强力清理】，找到【最美闹钟】，并将其允许。
+
+valueAdapter. 腾讯手机管家用户
+打开【腾讯手机管家】，点击【清理加速】，进入【自启管理】，找到【最美闹钟】，并将其允许。
+
+c. 百度手机卫士用户
+打开【百度手机卫士】，点击【手机加速】，在【手机加速】页面点击右上角设置，并点击进入【自启管理】，将【最美闹钟】列入自启动应用列表。
+
+d. LBE安全大师用户
+打开【LEB安全大师】，点击【手机加速】，进入【自启管家】，允许【最美闹钟】自启动。
+
+e. 乐安全用户
+打开【乐安全】，点击【清理加速】，进入【自启管理】，找到【最美闹钟】,并将其开启。
+
+f. 打开【猎豹清理大师】，点击【手机加速】，进入【自启管理】，找到【最美闹钟】，并将其开启。
+
+g. 金山电池医生用户
+打开【金山电池医生】，点击【省电】，在【省电】页面点击右上角设置，进入【清理忽略名单】，将【最美闹钟】添加到忽略名单。
+
+h. 安全管家用户
+打开【安全管家】，点击【手机加速】，在【手机加速】页面点击右上角的设置，进入【自启管理】，允许【最美闹钟】自启。"</string>
+    <string name="clock_indicate_txt">滑动圆圈或点击数字设置闹钟时间</string>
+    <string name="clock_name_title">闹钟名称</string>
+    <string name="close_later_tip_content">"您已将当前闹钟设置为稍后提醒，下次响铃时间%1$s时%2$s分。
+如果要编辑该闹钟，需关闭稍后提醒功能"</string>
+    <string name="close_remind_later">是，关闭提醒</string>
+    <string name="close_remind_target_time">重复闹钟，%1$s%2$s时%3$s分再次响铃</string>
+    <string name="continue_remind">不，继续提醒</string>
+    <string name="delet_city">删除城市</string>
+    <string name="delete_clock">删除闹钟</string>
+    <string name="dialog_window">(第1步) 解决响铃后找不到关闭闹铃界面的问题，需开启“悬浮窗”权限.</string>
+    <string name="do_not_to_set">我知道了</string>
+    <string name="find">发现</string>
+    <string name="finish_btn_txt">完成</string>
+    <string name="for_stream">为梦想而奋斗，坚持，下一刻就是属于你的胜利</string>
+    <string name="get_up_clock">起床闹钟</string>
+    <string name="goto_set">去开启</string>
+    <string name="hellow_clock">您好</string>
+    <string name="honey_show">温馨提示</string>
+    <string name="honey_title">亲，由于手机系统限制，如不响铃，请检查：</string>
+    <string name="honey_to_user_help">更多解决方案请查看侧边栏的用户帮助＞＞</string>
+    <string name="huawei_float_window_tip_txt">"第1步：请允许【最美闹钟】显示悬浮窗。
+开启悬浮窗权限，响铃提示页面才能在手机上正常显示。"</string>
+    <string name="huawei_go_to_set">华为用户前往设置</string>
+    <string name="huawei_start_selt_tip_txt">"请允许【最美闹钟】自启动。
+防止闹钟被系统错误清理掉，无法正常响铃。"</string>
+    <string name="indicate_choose_week_txt">点击星期，选择闹钟重复响铃周期</string>
+    <string name="kpskip">跳过</string>
+    <string name="later_remind_target_time">%1$s时%2$s分再次响铃</string>
+    <string name="latter">稍后再说</string>
+    <string name="latter_btn_txt">%s分钟后再响</string>
+    <string name="m_ui5_allow_start_slef">"请开启【我信任该程序】和【自动启动】开关。
+防止闹钟被系统错误清理掉，无法正常响铃。"</string>
+    <string name="m_ui5_float_window_tip_txt">"第1步：请开启【显示悬浮窗】开关。
+开启悬浮窗权限，响铃提示页面才能在手机上正常显示。"</string>
+    <string name="m_ui6_allow_start_slef">"允许【最美闹钟】自启动。
+防止闹钟被系统错误清理掉，无法正常响铃。"</string>
+    <string name="m_ui6_float_window_tip_txt">"第1步：请开启【显示悬浮窗】开关。
+开启悬浮窗权限，响铃提示页面才能在手机上正常显示。"</string>
+    <string name="maxim_name">"|
+达
+尔
+文
+
+"</string>
+    <string name="maxim_txt_1">"﹃
+完
+成
+工
+作
+的
+方
+法
+是
+
+"</string>
+    <string name="maxim_txt_2">"爱
+惜
+每
+一
+分
+钟
+﹄"</string>
+    <string name="mui_go_to_set">小米用户前往设置</string>
+    <string name="notification_remind_latter_txt">稍后再响</string>
+    <string name="other_app">更多应用</string>
+    <string name="remind_add_to_allow">4.闹钟需要被加入安全软件的白名单</string>
+    <string name="remind_at_time">闹钟将于%s再次响铃</string>
+    <string name="remind_do_not_close">3.不要关机，关机状态下不能响铃</string>
+    <string name="remind_do_not_earphone">2.不要使用耳机，否则声音不能外放</string>
+    <string name="remind_do_not_sd">1.软件不要装在SD卡</string>
+    <string name="remind_huawei">5.完成华为用户特别设置（简单1步）</string>
+    <string name="remind_miui">5.完成小米用户特别设置（简单1步）</string>
+    <string name="sure_add">确认添加</string>
+    <string name="tip_title">提示</string>
+    <string name="to">到</string>
+    <string name="toast_set_time_timepiece">请先设定计时时间</string>
+    <string name="up_to_close">上滑关闭闹钟</string>
+    <string name="user_help_txt">用户帮助</string>
+    <string name="vibration">震动</string>
+    <string name="agree_handle">牵手试试</string>
+    <string name="clock_good_gay">闹钟好基友</string>
+    <string name="empty_song">没有歌曲</string>
+    <string name="flash_lock_advantage">无需解锁，即可关闭闹钟。锁屏界面，一键进入最美闹钟</string>
+    <string name="lockscreen_name">闪电锁屏</string>
+    <string name="net_error_retry">网络异常，请连接后重试</string>
+    <string name="privacy">隐私政策</string>
+    <string name="privacy_back">返回</string>
+    <string name="refuse_handle">拒绝牵手</string>
+    <string name="right_to_close">右滑关闭闹钟</string>
+    <string name="string_close_alarm_watch_news">关闹钟,看新闻</string>
+    <string name="string_extension">推广</string>
+    <string name="string_found_time">发现时间</string>
+    <string name="subjust_clock">闹钟主题</string>
+    <string name="them_tasteful">优雅</string>
+    <string name="them_warm">温暖</string>
+    <string name="time_out_clock">您已错过该提醒</string>
+</resources>

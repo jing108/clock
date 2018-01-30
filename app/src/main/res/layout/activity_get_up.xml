@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/get_up_ry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff455a64">
+
+    <www.theboy.wang.clock.view.AutofitTextView
+        android:textColor="#ffffffff"
+        android:id="@id/for_stream"
+        android:text="@string/for_stream"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:textSize="@dimen/stream_txt_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="@dimen/get_up_clock_txt_size"
+        android:textColor="#ffffffff"
+        android:id="@id/get_up_name"
+        android:layout_marginTop="30dp"
+        android:text="@string/get_up_clock"
+        android:layout_below="@id/for_stream"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <www.theboy.wang.clock.view.CircularSeekBar
+        android:id="@id/get_up_circular"
+        android:layout_above="@id/indicate_txt"
+        android:layout_below="@id/get_up_name"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="12sp"
+        android:textColor="#ffa7afb2"
+        android:gravity="center"
+        android:id="@id/indicate_txt"
+        android:text="@string/clock_indicate_txt"
+        android:layout_above="@id/weeks_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/weeks_ly"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/bottom_ly"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <CheckBox
+            android:id="@id/week_box_1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/monday"
+            android:textColor="@drawable/circle_txt_color_selector"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@id/week_box_2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/tuesday"
+            android:textColor="@drawable/circle_txt_color_selector"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@id/week_box_3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/wednesday"
+            android:textColor="@drawable/circle_txt_color_selector"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@id/week_box_4"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/thursday"
+            android:textColor="@drawable/circle_txt_color_selector"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@id/week_box_5"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/friday"
+            android:textColor="@drawable/circle_txt_color_selector"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@id/week_box_6"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/saturday"
+            android:textColor="@drawable/circle_txt_color_selector"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@id/week_box_7"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/weekday"
+            android:textColor="@drawable/circle_txt_color_selector"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@id/get_up_veil"
+        android:background="@color/transparent_color"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/bottom_ly"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_btn">
+
+        <Button
+            android:textColor="#ffffffff"
+            android:id="@id/cancel_btn"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/cancel_btn_selector"
+            android:text="@string/latter"
+            android:layout_width="126dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:textColor="#ffffffff"
+            android:id="@id/add_btn"
+            android:background="@drawable/start_btn_selector"
+            android:layout_marginStart="20dp"
+            android:text="@string/sure_add"
+            android:layout_width="126dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

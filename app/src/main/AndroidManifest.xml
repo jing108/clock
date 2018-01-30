@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="www.theboy.wang.clock">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".DTapps"
+        android:allowBackup="true"
+        android:icon="@drawable/clock_icon"
+        android:label="@string/app_name_dd"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar">
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+
+        <activity
+            android:name=".activity.HoneyRemind"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.tip.SystemSetTipActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.dotool.clock"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name=".service.ClockService" />
+    </application>
+
+</manifest>

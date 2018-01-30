@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@drawable/shadow_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@id/wheel_cancel_ly"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@id/wheel_cancel_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/wheel_cancel_selector" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/time_set"
+            android:textColor="#ffffffff"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@id/wheel_sure_ly"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@id/wheel_sure_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/wheel_sure_selector" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <www.theboy.wang.clock.view.wheelview.WheelView
+            android:id="@id/year"
+            android:layout_width="120dp"
+            android:layout_height="match_parent" />
+
+        <www.theboy.wang.clock.view.wheelview.WheelView
+            android:id="@id/month"
+            android:layout_width="120dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

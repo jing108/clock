@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="layer_color">#99000000</color>
+    <color name="main_color">#ff455a64</color>
+    <color name="text_bright">#ffffffff</color>
+    <color name="text_dark">#ff8f9ca2</color>
+    <color name="transparent_color">#00000000</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="alpha99_white">#99ffffff</color>
+</resources>

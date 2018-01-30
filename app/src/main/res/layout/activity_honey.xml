@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layer_color"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ff455a64"
+        android:orientation="vertical"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="7dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/honey_show"
+                android:textColor="#ffffffff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/honey_title"
+            android:textColor="#ffffffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical"
+            android:text="@string/remind_do_not_sd"
+            android:textColor="#ffffffff"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@id/line_1"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ff3a4d5b" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical"
+            android:text="@string/remind_do_not_earphone"
+            android:textColor="#ffffffff"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@id/line_2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ff3a4d5b" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical"
+            android:text="@string/remind_do_not_close"
+            android:textColor="#ffffffff"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@id/line_3"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ff3a4d5b" />
+
+        <TextView
+            android:id="@id/allow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical"
+            android:text="@string/remind_add_to_allow"
+            android:textColor="#ffffffff"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@id/line_3"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ff3a4d5b" />
+
+        <TextView
+            android:id="@id/m_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical"
+            android:text="@string/remind_miui"
+            android:textColor="#ffffffff"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@id/line_3"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ff3a4d5b" />
+
+        <TextView
+            android:id="@id/goto_user_help"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:text="@string/honey_to_user_help"
+            android:textColor="#ffb3bbc0"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <Button
+                android:id="@id/go_to_set"
+                android:textSize="16sp"
+                android:textColor="#ffffffff"
+                android:background="@drawable/start_btn_selector"
+                android:layout_width="179dp"
+                android:layout_height="35dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

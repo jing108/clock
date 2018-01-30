@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="@dimen/time_change_pop_text_size"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:id="@id/pop_time_txt"
+        android:background="@drawable/time_bg"
+        android:paddingStart="@dimen/time_change_pop_padding_w"
+        android:paddingTop="@dimen/time_change_pop_padding_top"
+        android:paddingEnd="@dimen/time_change_pop_padding_w"
+        android:paddingBottom="@dimen/time_change_pop_padding_bottom"
+        android:layout_marginStart="@dimen/time_change_pop_margin_w"
+        android:layout_marginEnd="@dimen/time_change_pop_margin_w"
+        android:text="00:00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
